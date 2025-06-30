@@ -1,0 +1,15 @@
+| 🔍 Query Description                           | 🧠 Key Insight / Output Example                                         |
+| ---------------------------------------------- | ----------------------------------------------------------------------- |
+| **Top-Selling Products**                       | Maggi Noodles, Cashew Cookies, Dairy Milk – Highest total quantity sold |
+| **Highest MRP per Category**                   | Personal Care: ₹16,000, Home & Cleaning: ₹12,000                        |
+| **High Discounted Products**                   | Multiple products with >80% discount (e.g., Soap, Noodles)              |
+| **Products with 0% Discount**                  | \~300+ products; missed opportunity for promotional pricing             |
+| **Zero Profit Products (MRP = Selling Price)** | 1169 products → Highest: Munchies (138), Paan Corner (134)              |
+| **Low Margin Warning** (High MRP, Low Profit)  | Flagged 30+ products with <₹500 profit despite high MRP                 |
+| **Weighted Avg. Discount by Category**         | Personal Care: \~32.7%, Munchies: \~29.1% – Highest effective discounts |
+| **Estimated Revenue (Out of Stock)**           | Arden Eggs White – ₹38,800 lost due to stock out                        |
+| **Profit Status Classification**               | Zero Profit: 1169, Profitable: 2098, Negative: 3                        |
+| **Multi-Category Products**                    | 100+ products listed in more than one category                          |
+| **Highest Profit Products**                    | Soap, Health Items with profit > ₹13,000 per unit                       |
+| **Ranking Products by MRP within Categories**  | Used `RANK()` to sort top premium items per category                    |
+| **Stock Value at MRP = Selling Price**         | High unsold value in zero-profit products                               |
